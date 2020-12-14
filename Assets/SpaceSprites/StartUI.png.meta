@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: d4b5ab808d903564c8a30742276083b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8873562069884519526
+    second: StartUI_0
+  - first:
+      213: 5724032138570397984
+    second: StartUI_1
+  - first:
+      213: -4090613654048836141
+    second: StartUI_2
+  - first:
+      213: -3621863281560728188
+    second: StartUI_3
+  - first:
+      213: 1097970319836251018
+    second: StartUI_4
+  - first:
+      213: 5544320860572291032
+    second: StartUI_5
+  - first:
+      213: 8394870504909373600
+    second: StartUI_6
+  - first:
+      213: -442208438756691971
+    second: StartUI_7
+  - first:
+      213: -196691181716947918
+    second: StartUI_8
+  - first:
+      213: 5215859671292718585
+    second: StartUI_9
+  - first:
+      213: 4019344611400998768
+    second: StartUI_10
+  - first:
+      213: 410840775546594540
+    second: StartUI_11
+  - first:
+      213: -2465142747321525089
+    second: StartUI_12
+  - first:
+      213: 3334932461119905951
+    second: StartUI_13
+  - first:
+      213: -7689281491710394484
+    second: StartUI_14
+  - first:
+      213: -927498895222849141
+    second: StartUI_15
+  - first:
+      213: -1679971938569570657
+    second: StartUI_16
+  - first:
+      213: -1444844704993847916
+    second: StartUI_17
+  - first:
+      213: -7159063009326183831
+    second: StartUI_18
+  - first:
+      213: -6446918935116601295
+    second: StartUI_19
+  - first:
+      213: -8666547378737084992
+    second: StartUI_20
+  - first:
+      213: 2511249822752996793
+    second: StartUI_21
+  - first:
+      213: 1732961254060609916
+    second: StartUI_22
+  - first:
+      213: 1961707200455299004
+    second: StartUI_23
+  - first:
+      213: -4982734610487484137
+    second: StartUI_24
+  - first:
+      213: -4887939242068124301
+    second: StartUI_25
+  - first:
+      213: -9096424842396928392
+    second: StartUI_26
+  - first:
+      213: 7601839560998439544
+    second: StartUI_27
+  - first:
+      213: 7252716727443064597
+    second: StartUI_28
+  - first:
+      213: 2571329395971026232
+    second: StartUI_29
+  - first:
+      213: 9048902399255580056
+    second: StartUI_30
+  - first:
+      213: -8967270350551215695
+    second: StartUI_31
+  - first:
+      213: -922924158028791444
+    second: StartUI_32
+  - first:
+      213: -4196555246186628218
+    second: StartUI_33
+  - first:
+      213: 7124393182847672694
+    second: StartUI_34
+  - first:
+      213: -2674547045787866439
+    second: StartUI_35
+  - first:
+      213: -2218896623844332060
+    second: StartUI_36
+  - first:
+      213: 5455410317765339415
+    second: StartUI_37
+  - first:
+      213: -5134254068335386698
+    second: StartUI_38
+  - first:
+      213: -995308227586434954
+    second: StartUI_39
+  - first:
+      213: 8903033219802607679
+    second: StartUI_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StartUI_0
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1045
+        width: 1905
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b3724cf46cad480800000000000000
+      internalID: -8873562069884519526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartUI_12
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 877
+        width: 740
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c15417bbd0acdd0800000000000000
+      internalID: -2465142747321525089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartUI_21
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 753
+        width: 766
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd747b9860c9d220800000000000000
+      internalID: 2511249822752996793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartUI_30
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 524
+        width: 285
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d0fcaf9c8249d70800000000000000
+      internalID: 9048902399255580056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartUI_34
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 422
+        width: 838
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671a9d76addeed260800000000000000
+      internalID: 7124393182847672694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartUI_35
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 405
+        width: 282
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba6eb8d1a912ead0800000000000000
+      internalID: -2674547045787866439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StartUI_39
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 162
+        width: 349
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678dfacb074ff22f0800000000000000
+      internalID: -995308227586434954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

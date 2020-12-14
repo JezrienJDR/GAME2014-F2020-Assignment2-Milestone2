@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 36d5f45eb6b6a9142b8b6da3d1b889d0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - normalPhaser: {fileID: 5451107485508082884, guid: b3f9a9b1129e2544b95bdf21b31711e2, type: 3}
+  - normalMissile: {fileID: 2779826634237531683, guid: ef9bc3b7177915e40a05e08aadc04d7e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

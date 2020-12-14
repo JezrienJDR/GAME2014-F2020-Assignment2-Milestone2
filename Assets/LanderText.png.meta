@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: c377130f610faf24996d5a41f97f00b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4569864783626899445
+    second: LanderText_0
+  - first:
+      213: -4906494312248344216
+    second: LanderText_1
+  - first:
+      213: -2460305476523808534
+    second: LanderText_2
+  - first:
+      213: -7334146321346668944
+    second: LanderText_3
+  - first:
+      213: -5795338994928483292
+    second: LanderText_4
+  - first:
+      213: -8622690169161254940
+    second: LanderText_5
+  - first:
+      213: 3828625973223895846
+    second: LanderText_6
+  - first:
+      213: -873720469289677014
+    second: LanderText_7
+  - first:
+      213: -8619243803093441850
+    second: LanderText_8
+  - first:
+      213: -365936267762156726
+    second: LanderText_9
+  - first:
+      213: -2620437489374920146
+    second: LanderText_10
+  - first:
+      213: 1051702801057303232
+    second: LanderText_11
+  - first:
+      213: 8858120819006455462
+    second: LanderText_12
+  - first:
+      213: -5839877305707461490
+    second: LanderText_13
+  - first:
+      213: -4256841158698691882
+    second: LanderText_14
+  - first:
+      213: -1739211207935811367
+    second: LanderText_15
+  - first:
+      213: -7026453872232887016
+    second: LanderText_16
+  - first:
+      213: 8538047581404872439
+    second: LanderText_17
+  - first:
+      213: 7291230715679523820
+    second: LanderText_18
+  - first:
+      213: -3918823986421367712
+    second: LanderText_19
+  - first:
+      213: -4517877104021145074
+    second: LanderText_20
+  - first:
+      213: -3228660774721993485
+    second: LanderText_21
+  - first:
+      213: -7331159360709047616
+    second: LanderText_22
+  - first:
+      213: -1746467726320852052
+    second: LanderText_23
+  - first:
+      213: 4309458390909753216
+    second: LanderText_24
+  - first:
+      213: 1696580494991900148
+    second: LanderText_25
+  - first:
+      213: 448515082485284767
+    second: LanderText_26
+  - first:
+      213: 8324278524167215511
+    second: LanderText_27
+  - first:
+      213: -8020395596183610106
+    second: LanderText_28
+  - first:
+      213: 6333997865733842152
+    second: LanderText_29
+  - first:
+      213: 9096891583988916103
+    second: LanderText_30
+  - first:
+      213: 4889216617523814778
+    second: LanderText_31
+  - first:
+      213: 4889212569062830800
+    second: LanderText_32
+  - first:
+      213: 4843955568757541137
+    second: LanderText_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LanderText_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 326
+        width: 290
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00f95401349490c0800000000000000
+      internalID: -4569864783626899445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LanderText_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 217
+        width: 381
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424815e93e1d29fa0800000000000000
+      internalID: -5795338994928483292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LanderText_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 153
+        width: 217
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d04e25e650d7e90800000000000000
+      internalID: -7026453872232887016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LanderText_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 95
+        width: 237
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0879084f2954ecb30800000000000000
+      internalID: 4309458390909753216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LanderText_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 38
+        width: 93
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71a1750c9cf9d340800000000000000
+      internalID: 4889216617523814778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
