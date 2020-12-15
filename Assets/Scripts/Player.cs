@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -26,17 +27,44 @@ public class Player : MonoBehaviour
 
     bool onRamp = false;
 
+    public Image healthBar;
+
+    float health;
+    float maxHealth = 180;
+
     Vector3 recallPoint;
 
+    bool attackEnabled = true;
+
+    public GameObject blast;
+
+    public float blastSpeed;
+
+    public Transform muzzle;
+
+    public AudioClip boom;
+    public AudioClip fire;
+
+    Joystick joystick;
+
+    float xDead = 0.2f;
+
+    bool onPlatform = false;
     // Start is called before the first frame update
     void Start()
     {
+        joystick = FindObjectOfType<Joystick>();
+
         sr = GetComponent<SpriteRenderer>();
         animr = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         cap = GetComponent<CapsuleCollider2D>();
 
+        health = maxHealth;
+
         recallPoint = transform.position;
+
+        //muzzle = GetComponentInChildren<Transform>();
 
         foreach(TilemapCollider2D t in FindObjectsOfType<TilemapCollider2D>())
         {
@@ -55,15 +83,16 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || joystick.Horizontal < -xDead)
         {
             direction = 'L';
             transform.localScale = new Vector3(-1, 1, 1);
+           
             rb.AddForce(new Vector2(-RunForce, 0));
            
             animr.SetInteger("animState", 1);
         }
-        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || joystick.Horizontal > xDead)
         {
             direction = 'R';
             transform.localScale = new Vector3(1, 1, 1);
@@ -72,7 +101,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            direction = 'N';
+            //direction = 'N';
             animr.SetInteger("animState", 0);
         }
 
@@ -80,6 +109,11 @@ public class Player : MonoBehaviour
         {
             Jump();
             onGround = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.RightControl) || Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            FireWeapon();
         }
 
         if(onRamp)
@@ -93,7 +127,10 @@ public class Player : MonoBehaviour
         }
         else
         {
-            onGround = false;
+            if (onPlatform == false)
+            { 
+                onGround = false;
+            }
         }
 
         if(onGround == false)
@@ -110,20 +147,54 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void FireWeapon()
+    {
+        if(attackEnabled)
+        {
+            GameObject b = Instantiate(blast, muzzle.position, Quaternion.identity);
+
+            Vector2 force;
+
+            if(direction == 'R')
+            {
+                //force = new Vector2(RunForce * 3, 0);
+                b.GetComponent<Rigidbody2D>().velocity = new Vector2(blastSpeed, 0);
+            }
+            else if(direction == 'L')
+            {
+                force = new Vector2(-RunForce * 3, 0);
+                b.transform.rotation = Quaternion.Euler(0, 180, 0);
+                b.GetComponent<Rigidbody2D>().velocity = new Vector2(-blastSpeed, 0);
+            }
+
+            GetComponent<AudioSource>().PlayOneShot(fire);
+            //b.GetComponent<Rigidbody2D>().AddForce(new Vector2(RunForce * 3, 0));
+        
+        }
+
+
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Ground"))
         {
-            Debug.Log("Grounded!");
+            //Debug.Log("Grounded!");
 
             onGround = true;
         }
         if (collision.gameObject.CompareTag("UpRamp"))
         {
             onRamp = true;
-            Debug.Log("RAMP!");
+            //Debug.Log("RAMP!");
         }
-        if(collision.gameObject.CompareTag("DeadZone"))
+        if (collision.gameObject.CompareTag("platform"))
+        {
+            onPlatform = true;
+            onGround = true;
+            //Debug.Log("RAMP!");
+        }
+        if (collision.gameObject.CompareTag("DeadZone"))
         {
             Death();
         }
@@ -135,15 +206,48 @@ public class Player : MonoBehaviour
         {
             onRamp = false;
         }
+        if (collision.gameObject.CompareTag("platform"))
+        {
+            onPlatform = false;
+            //Debug.Log("RAMP!");
+        }
     }
 
-    void Jump()
+    public void Jump()
     {
         rb.AddForce(new Vector2(0, JumpForce));
+    }
+
+    public void EnableAttack()
+    {
+        attackEnabled = true;
+    }
+
+    public void boomSound()
+    {
+        GetComponent<AudioSource>().PlayOneShot(boom);
+    }
+
+    public void Damage(float d)
+    {
+        health -= d;
+
+        //Debug.Log(health);
+
+        healthBar.GetComponent<RectTransform>().SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 0, health);
+
+        Debug.Log(health);
+
+        if (health <= 0)
+        {
+            Death();
+        }
     }
 
     void Death()
     {
         transform.position = recallPoint;
+        health = 180;
+        healthBar.GetComponent<RectTransform>().SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 0, health);
     }
 }

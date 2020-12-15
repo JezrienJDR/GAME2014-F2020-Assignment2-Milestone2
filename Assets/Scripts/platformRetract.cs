@@ -28,9 +28,6 @@ public class platformRetract : MonoBehaviour
 
         StartCoroutine("InitialWait");
 
-        
-
-
 
     }
 

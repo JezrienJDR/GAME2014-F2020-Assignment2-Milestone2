@@ -75,13 +75,15 @@
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Scripts\Space\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Space\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\Bomb.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\shortTank.cs" />
     <Compile Include="Assets\Scripts\Space\PlayerProjectileManager.cs" />
+    <Compile Include="Assets\Scripts\AttackPickup.cs" />
     <Compile Include="Assets\Scripts\Space\GameOverScreen.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\Scripts\platformCollapse.cs" />
-    <Compile Include="Assets\Scripts\Bomb.cs" />
+    <Compile Include="Assets\Scripts\blast.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
